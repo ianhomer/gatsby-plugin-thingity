@@ -5,7 +5,7 @@
     "module": "commonjs",
     "lib": ["es6","dom"],
     "jsx": "react",
-    "outDir": "./build/main",
+    "outDir": ".",
     "rootDir": "src",
     "sourceMap": true,
     "strict": true,
@@ -25,6 +25,10 @@
     "listFiles": false,
     "pretty": true
   },
-  "exclude": ["node_modules/**"],
-  "include": ["src/**/*"]
+  "exclude": [
+    "./node_modules/**"
+  ],
+  "include": [
+    "src/**/*"
+  ]
 }

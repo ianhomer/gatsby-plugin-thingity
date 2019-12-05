@@ -29,7 +29,7 @@ exports.createPages = ({ actions, graphql }) => {
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       if (node.fields) {
-        console.log(`Create Page : ${node.fields.slug}` )
+        console.log(`... create Page : ${node.fields.slug}` )
         createPage({
           path: node.fields.slug,
           component: thingTemplate,
@@ -44,7 +44,7 @@ exports.createPages = ({ actions, graphql }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  console.log(`Create Node : ${node.internal.type}` )
+  console.log(`... create Node : ${node.internal.type}` )
   if (node.internal.type === "MarkdownRemark") {
     const relativeFilePath = createFilePath({
       node,
