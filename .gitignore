@@ -1,9 +1,5 @@
+.cache
 .idea/sonarlint
 .idea/workspace.xml
-
 node_modules
-_site/
-.sass-cache/
-.jekyll-metadata
 public
-.cache

@@ -1,5 +1,15 @@
 # Markdown Site Renderer
 
-Minimal config rendering of markdown files.
+Given a directory of markdown files render a web site with minimal configuration.
 
+# tl;dr
+
+Copy package.json and gatsby-config.js from 
+[gatsby-plugin-thingity-example](https://github.com/ianhomer/gatsby-plugin-thingity-example)
+into the root of your directory with your markdown files in and run:
+
+    npm install
+    npm run develop
+
+Then visit http://localhost:8000
 

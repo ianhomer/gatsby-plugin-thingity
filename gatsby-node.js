@@ -28,13 +28,15 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      console.log(`Create Page : ${node.id}` )
       if (node.fields) {
+        console.log(`Create Page : ${node.fields.slug}` )
         createPage({
           path: node.fields.slug,
           component: thingTemplate,
           context: {}
         })
+      } else {
+        console.log(`Not create Page : ${JSON.stringify(node)}` )
       }
     })
   })
