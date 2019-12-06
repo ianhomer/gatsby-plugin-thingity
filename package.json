@@ -10,6 +10,7 @@
     "gatsby": "^2.18.7",
     "gatsby-core-utils": "^1.0.22",
     "gatsby-plugin-react-helmet": "^3.1.16",
+    "gatsby-plugin-typescript": "^2.1.20",
     "gatsby-source-filesystem": "^2.1.40",
     "gatsby-transformer-remark": "^2.6.39",
     "npm-check-updates": "^3.2.2",
