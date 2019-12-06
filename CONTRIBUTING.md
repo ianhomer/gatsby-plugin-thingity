@@ -8,6 +8,7 @@
     npm link
     cd ../your-content-project
     npm link gatsby-plugin-thingity
+    npm install
     npm run develop
 
 Then open up the site at http://localhost:8000/
