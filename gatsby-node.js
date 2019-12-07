@@ -1,6 +1,6 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-const thingTemplate = require.resolve('./src/templates/thing.tsx')
+const thingTemplate = require.resolve('./src/templates/thing.jsx')
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;

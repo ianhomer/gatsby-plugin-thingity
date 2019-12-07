@@ -15,9 +15,6 @@ Then open up the site at http://localhost:8000/
 
 Then you can make local changes to thingity and see them applied to your-content-project
 
-
-
-
 # Linting
 
     npm run lint
