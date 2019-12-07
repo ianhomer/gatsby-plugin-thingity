@@ -28,12 +28,6 @@
     "@types/react-dom": "^16.9.4",
     "babel-preset-gatsby-package": "^0.1.4",
     "cross-env": "^6.0.3",
-    "eslint": "^6.7.2",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "1.19.1"
   },
   "homepage": "https://github.com/ianhomer/thingity",
@@ -53,8 +47,6 @@
   },
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
-    "lint": "eslint --ext .tsx ./src",
-    "lint:fix": "eslint --ext .tsx --fix ./src",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir . --ignore **/__tests__"
   },
