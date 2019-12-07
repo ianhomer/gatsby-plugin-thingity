@@ -1,6 +1,7 @@
-src
+.idea
 .eslintrc
 .gitignore
 .editorconfig
 package-lock.json
+src
 tsconfig.json
