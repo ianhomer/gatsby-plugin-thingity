@@ -1,5 +1,7 @@
 .cache
 .idea/sonarlint
 .idea/workspace.xml
+/*.js
+!index.js
 node_modules
 public

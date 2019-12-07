@@ -1,40 +1,38 @@
 {
   "name": "gatsby-plugin-thingity",
-  "description": "Gatsby plugin which renders markdown things",
-  "version": "0.0.1",
+  "description": "Gatsby plugin which renders markdown things.",
+  "version": "0.0.2",
   "author": "Ian Homer",
   "bugs": {
-    "url": "https://github.com/ianhomer/thingity/issues"
+    "url": "https://github.com/ianhomer/gatsby-plugin-thingity/issues"
   },
   "dependencies": {
-    "@babel/runtime": "^7.7.5"
+    "@babel/runtime": "^7.1.5",
+    "node-fetch": "^2.2.1"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.7.5",
-    "@babel/core": "^7.7.5",
-    "babel-preset-gatsby-package": "^0.2.12",
-    "cross-env": "^6.0.3"
-  },
-  "homepage": "https://github.com/ianhomer/thingity",
   "keywords": [
     "gatsby",
+    "gatsby-source",
     "gatsby-plugin",
-    "markdown"
+    "cat facts"
   ],
-  "license": "MIT",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ianhomer/thingity.git"
+    "url": "https://github.com/ianhomer/gatsby-plugin-thingity.git"
   },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "babel-preset-gatsby-package": "^0.1.2",
+    "cross-env": "^5.2.0"
+  },
+  "license": "MIT",
   "scripts": {
     "build": "babel ./src --out-dir ./",
-    "watch": "babel -w src --out-dir ."
-  },
-  "engines": {
-    "node": ">=8.0.0"
+    "watch": "babel -w src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build"
   },
   "peerDependencies": {
-    "gatsby": ">2.18.0"
+    "gatsby": ">2.0.0-alpha"
   }
 }
