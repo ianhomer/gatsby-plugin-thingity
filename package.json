@@ -37,5 +37,8 @@
   },
   "peerDependencies": {
     "gatsby": ">2.0.0-alpha"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
