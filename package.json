@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-things",
+  "name": "@ianhomer/gatsby-plugin-things",
   "description": "Gatsby plugin which renders markdown things.",
   "version": "0.0.2",
   "author": "Ian Homer",
