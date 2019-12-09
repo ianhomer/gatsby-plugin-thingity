@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gatsby-plugin-thingity.iml" filepath="$PROJECT_DIR$/.idea/gatsby-plugin-thingity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gatsby-plugin-things.iml" filepath="$PROJECT_DIR$/.idea/gatsby-plugin-things.iml" />
     </modules>
   </component>
 </project>
