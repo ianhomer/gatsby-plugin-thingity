@@ -1,7 +1,7 @@
 {
   "name": "@ianhomer/gatsby-plugin-things",
   "description": "Gatsby plugin which renders markdown things.",
-  "version": "0.0.2",
+  "version": "0.0.3-alpha",
   "author": "Ian Homer",
   "bugs": {
     "url": "https://github.com/ianhomer/gatsby-plugin-things/issues"
