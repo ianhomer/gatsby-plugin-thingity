@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-plugin-thingity",
+  "name": "gatsby-plugin-things",
   "description": "Gatsby plugin which renders markdown things.",
   "version": "0.0.2",
   "author": "Ian Homer",
   "bugs": {
-    "url": "https://github.com/ianhomer/gatsby-plugin-thingity/issues"
+    "url": "https://github.com/ianhomer/gatsby-plugin-things/issues"
   },
   "dependencies": {
     "@babel/runtime": "^7.1.5",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ianhomer/gatsby-plugin-thingity.git"
+    "url": "https://github.com/ianhomer/gatsby-plugin-things.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
