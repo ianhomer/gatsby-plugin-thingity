@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
+    "@babel/compat-data": "^7.10.5",
     "@babel/core": "^7.8.7",
     "acorn": ">=5.7.4",
     "babel-preset-gatsby-package": "^0.2.17",
