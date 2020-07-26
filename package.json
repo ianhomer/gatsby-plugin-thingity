@@ -21,7 +21,11 @@
     "url": "https://github.com/ianhomer/gatsby-plugin-things.git"
   },
   "scripts": {
-    "update": "npx npm-check-updates -u && npm install --package-lock-only --no-audit"
+    "build": "babel ./src --out-dir ./",
+    "jest": "jest",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir .",
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -29,16 +33,10 @@
     "acorn": ">=5.7.4",
     "babel-preset-gatsby-package": "^0.2.17",
     "cross-env": "^7.0.2",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "lodash": "^4.17.19"
   },
   "license": "MIT",
-  "scripts": {
-    "build": "babel ./src --out-dir ./",
-    "jest": "jest",
-    "prepare": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir .",
-    "test": "jest"
-  },
   "peerDependencies": {
     "gatsby": ">2.19.43"
   },
