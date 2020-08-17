@@ -32,15 +32,15 @@
     "@babel/cli": "^7.10.5",
     "@babel/compat-data": "^7.11.0",
     "@babel/core": "^7.11.1",
-    "acorn": ">=7.4.0",
+    "acorn": ">=8.0.1",
     "babel-preset-gatsby-package": "^0.5.2",
     "cross-env": "^7.0.2",
-    "jest": "^26.2.2",
-    "lodash": "^4.17.19"
+    "jest": "^26.4.0",
+    "lodash": "^4.17.20"
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.24.37"
+    "gatsby": ">2.24.47"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
