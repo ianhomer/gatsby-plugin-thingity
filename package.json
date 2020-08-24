@@ -31,11 +31,11 @@
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/compat-data": "^7.11.0",
-    "@babel/core": "^7.11.1",
+    "@babel/core": "^7.11.4",
     "acorn": ">=8.0.1",
     "babel-preset-gatsby-package": "^0.5.2",
     "cross-env": "^7.0.2",
-    "jest": "^26.4.0",
+    "jest": "^26.4.2",
     "lodash": "^4.17.20"
   },
   "license": "MIT",
