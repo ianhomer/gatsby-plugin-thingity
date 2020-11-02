@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.24.85"
+    "gatsby": ">2.24.91"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
