@@ -29,9 +29,9 @@
     "update": "npx npm-check-updates -u && npm install --package-lock-only --no-audit"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.7",
+    "@babel/cli": "^7.12.8",
     "@babel/compat-data": "^7.12.7",
-    "@babel/core": "^7.12.7",
+    "@babel/core": "^7.12.9",
     "acorn": ">=8.0.4",
     "babel-preset-gatsby-package": "^0.7.0",
     "cross-env": "^7.0.2",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.27.0"
+    "gatsby": ">2.27.4"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
