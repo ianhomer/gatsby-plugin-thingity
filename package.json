@@ -33,14 +33,14 @@
     "@babel/compat-data": "^7.12.7",
     "@babel/core": "^7.12.10",
     "acorn": ">=8.0.4",
-    "babel-preset-gatsby-package": "^0.10.0",
+    "babel-preset-gatsby-package": "^0.11.0",
     "cross-env": "^7.0.3",
     "jest": "^26.6.3",
     "lodash": "^4.17.20"
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.30.3"
+    "gatsby": ">2.31.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
