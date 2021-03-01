@@ -7,7 +7,7 @@
     "url": "https://github.com/ianhomer/gatsby-plugin-things/issues"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.18",
+    "@babel/runtime": "^7.13.8",
     "node-fetch": "^2.6.1"
   },
   "keywords": [
@@ -29,9 +29,9 @@
     "update": "npx npm-check-updates -u && npm install --package-lock-only --no-audit"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.17",
-    "@babel/compat-data": "^7.12.13",
-    "@babel/core": "^7.12.17",
+    "@babel/cli": "^7.13.0",
+    "@babel/compat-data": "^7.13.8",
+    "@babel/core": "^7.13.8",
     "acorn": ">=8.0.5",
     "babel-preset-gatsby-package": "^0.12.0",
     "cross-env": "^7.0.3",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.32.4"
+    "gatsby": ">2.32.8"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
