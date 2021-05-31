@@ -30,17 +30,17 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.14.3",
-    "@babel/compat-data": "^7.14.0",
+    "@babel/compat-data": "^7.14.4",
     "@babel/core": "^7.14.3",
     "acorn": ">=8.2.4",
-    "babel-preset-gatsby-package": "^1.5.0",
+    "babel-preset-gatsby-package": "^1.6.0",
     "cross-env": "^7.0.3",
-    "jest": "^26.6.3",
+    "jest": "^27.0.3",
     "lodash": "^4.17.21"
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">3.5.1"
+    "gatsby": ">3.6.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
