@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
-    "@babel/compat-data": "^7.14.7",
+    "@babel/compat-data": "^7.14.9",
     "@babel/core": "^7.14.8",
     "acorn": ">=8.4.1",
     "babel-preset-gatsby-package": "^1.10.0",
@@ -40,7 +40,7 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">3.10.1"
+    "gatsby": ">3.10.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
