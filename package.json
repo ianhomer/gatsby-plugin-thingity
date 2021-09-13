@@ -32,10 +32,10 @@
     "@babel/cli": "^7.15.4",
     "@babel/compat-data": "^7.15.0",
     "@babel/core": "^7.15.5",
-    "acorn": ">=8.4.1",
+    "acorn": ">=8.5.0",
     "babel-preset-gatsby-package": "^1.13.0",
     "cross-env": "^7.0.3",
-    "jest": "^27.1.0",
+    "jest": "^27.1.1",
     "lodash": "^4.17.21"
   },
   "license": "MIT",
